@@ -7,4 +7,6 @@ build_script:
 
     python -V
 
+    python -m pip install discord watchdog
+
     python -m bot
