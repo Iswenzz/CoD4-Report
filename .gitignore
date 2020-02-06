@@ -6,3 +6,5 @@ bot/tests/test_bot.py
 token
 
 bot/__pycache__/
+
+bot/tests/__pycache__/
