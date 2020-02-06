@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bot\commands.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="bot\reportbot.py">
       <SubType>Code</SubType>
     </Compile>

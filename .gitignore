@@ -8,3 +8,9 @@ token
 bot/__pycache__/
 
 bot/tests/__pycache__/
+
+.coverage
+
+coverage.xml
+
+bot/reportbot.py
