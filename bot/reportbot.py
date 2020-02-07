@@ -8,6 +8,9 @@ import sys
 
 class ReportBOT(commands.Bot):
     async def on_ready(self):
+        """
+        BOT ready callback.
+        """
         print("Logged in as\n%s\n%s\n------" % (self.user.name, self.user.id))
         dir_path = sys.argv[1] if len(sys.argv) > 1 else str(Path(os.getcwd()) / "bot" / "tests")
         print("[Watchdog]: %s" % dir_path)

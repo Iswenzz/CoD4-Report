@@ -5,12 +5,18 @@ import asyncio
 
 class ReportHandler(FileSystemEventHandler):
     def __init__(self, client):
+        """
+        Initialize a new ReportHandler object.
+        """
         self.client = client
         self.mapReports = []
         self.playerReports = []
 
 
     def on_modified(self, event):
+        """
+        File modified callback.
+        """
         if not event.is_directory:
             if "report_map.txt" in event.src_path:
                 asyncio.run_coroutine_threadsafe(self.processMapReport(event.src_path), self.client.loop)
@@ -19,6 +25,9 @@ class ReportHandler(FileSystemEventHandler):
 
 
     async def processMapReport(self, filepath):
+        """
+        Parse the last report message from cod4 server and send the result on discord.
+        """
         with open(filepath, "r") as f:
             tkn = f.readlines()[-1].split(" ")
             if len(tkn) != 7:
@@ -38,6 +47,9 @@ class ReportHandler(FileSystemEventHandler):
 
 
     async def processPlayerReport(self, filepath):
+        """
+        Parse the last report message from cod4 server and send the result on discord.
+        """
         with open(filepath, "r") as f:
             tkn = f.readlines()[-1].split(" ")
             if len(tkn) != 9:

@@ -1,8 +1,10 @@
-from bot.reportbot import ReportBOT
-from bot.commands import ReportCommands
+from bot import ReportBOT, ReportCommands
 import os
 
 def main():
+    """
+    Entry point of the program.
+    """
     if os.path.exists("token"):
         with open("token", "r") as f:
             client = ReportBOT(command_prefix=";")
