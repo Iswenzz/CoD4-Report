@@ -13,4 +13,3 @@ This program listens for the `!reportplayer` or `!reportmap` commands on the SR 
 !reportmap <msg>
 !reportplayer <playerName> <msg>
 ```
-Reports are saved in .txt files and read by the discord bot.
