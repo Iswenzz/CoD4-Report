@@ -9,7 +9,20 @@ This program listens for the `!reportplayer` or `!reportmap` commands on the SR 
 
 ![](https://i.imgur.com/UnUTAHR.png)
 
+# Commands
 ```
 !reportmap <msg>
 !reportplayer <playerName> <msg>
 ```
+
+## Instructions
+In order to use this application, just download the archived file down below, and extract it to any destination. You can create a shortcut of the executable file and place it anywhere, and run it from said shortcut.
+
+## Pre-Requisites
+1. [Python 3.6+](https://www.python.org/)
+2. **Optional** [Visual Studio](https://visualstudio.microsoft.com/)
+
+### [Download](https://github.com/Iswenzz/CoD4-Report-Discord-BOT/releases)
+
+## Contributors:
+***Note:*** If you would like to contribute to this repository, feel free to send a pull request, and I will review your code. Also feel free to post about any problems that may arise in the issues section of the repository.
