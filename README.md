@@ -1,4 +1,4 @@
-# CoD4 Report Discord BOT
+# CoD4 Report Discord
 
 [![Build status](https://ci.appveyor.com/api/projects/status/8q9y246xeq6xti5i?svg=true)](https://ci.appveyor.com/project/Iswenzz/cod4-report-discord-bot)
 [![codecov](https://codecov.io/gh/Iswenzz/CoD4-Report-Discord-BOT/branch/master/graph/badge.svg)](https://codecov.io/gh/Iswenzz/CoD4-Report-Discord-BOT)
